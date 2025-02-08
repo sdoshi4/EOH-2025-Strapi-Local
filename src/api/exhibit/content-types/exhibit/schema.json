@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exhibits",
+  "info": {
+    "singularName": "exhibit",
+    "pluralName": "exhibits",
+    "displayName": "Exhibit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Exhibit_Number": {
+      "type": "string"
+    },
+    "Exhibit_Name": {
+      "type": "string"
+    },
+    "VisGuide_Description": {
+      "type": "text"
+    },
+    "Building_A": {
+      "type": "string"
+    },
+    "Sub_Building_A": {
+      "type": "string"
+    },
+    "Building_B": {
+      "type": "string"
+    },
+    "Sub_Building_B": {
+      "type": "string"
+    },
+    "Affiliation": {
+      "type": "string"
+    },
+    "Department": {
+      "type": "string"
+    },
+    "Intended_Audience": {
+      "type": "string"
+    },
+    "Tags": {
+      "type": "string"
+    }
+  }
+}
