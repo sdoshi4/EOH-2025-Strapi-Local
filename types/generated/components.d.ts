@@ -11,6 +11,18 @@ export interface SharedMedia extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedOccurences extends Struct.ComponentSchema {
+  collectionName: 'components_shared_occurences';
+  info: {
+    displayName: 'occurences';
+  };
+  attributes: {
+    colIndex: Schema.Attribute.Integer;
+    endTime: Schema.Attribute.DateTime;
+    startTime: Schema.Attribute.DateTime;
+  };
+}
+
 export interface SharedQuote extends Struct.ComponentSchema {
   collectionName: 'components_shared_quotes';
   info: {
@@ -66,6 +78,7 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'shared.media': SharedMedia;
+      'shared.occurences': SharedOccurences;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;
