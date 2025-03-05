@@ -4,7 +4,8 @@
   "info": {
     "singularName": "event",
     "pluralName": "events",
-    "displayName": "Event"
+    "displayName": "Event",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,11 +15,30 @@
     "title": {
       "type": "string"
     },
-    "Description": {
-      "type": "string"
-    },
     "location": {
       "type": "string"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "shortTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "occurences": {
+      "displayName": "occurences",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.occurences"
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_occurences",
+  "info": {
+    "displayName": "occurences"
+  },
+  "options": {},
+  "attributes": {
+    "startTime": {
+      "type": "datetime"
+    },
+    "endTime": {
+      "type": "datetime"
+    },
+    "colIndex": {
+      "type": "integer"
+    }
+  }
+}
