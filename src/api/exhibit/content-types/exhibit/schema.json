@@ -42,7 +42,13 @@
     "Intended_Audience": {
       "type": "string"
     },
-    "Tags": {
+    "Tag1": {
+      "type": "string"
+    },
+    "Tag2": {
+      "type": "string"
+    },
+    "Tag3": {
       "type": "string"
     }
   }

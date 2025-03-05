@@ -490,7 +490,9 @@ export interface ApiExhibitExhibit extends Struct.CollectionTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     Sub_Building_A: Schema.Attribute.String;
     Sub_Building_B: Schema.Attribute.String;
-    Tags: Schema.Attribute.String;
+    Tag1: Schema.Attribute.String;
+    Tag2: Schema.Attribute.String;
+    Tag3: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_single_texts",
+  "info": {
+    "displayName": "singleText"
+  },
+  "options": {},
+  "attributes": {
+    "t1": {
+      "type": "string"
+    }
+  }
+}
